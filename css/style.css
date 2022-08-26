@@ -43,6 +43,7 @@ body {
    justify-content: center;
    margin-right: 40%;
    justify-content: space-around;
+   
 }
 .header_navigation a {
    text-decoration: none;
@@ -55,3 +56,48 @@ body {
    cursor: pointer;
    text-shadow: 0 0 5px blue;
 }
+/* Стили поисковой системы */
+#myInput {
+   background-image: url('https://uxwing.com/wp-content/themes/uxwing/download/user-interface/search-icon.png');
+   background-position: left;
+   background-repeat: no-repeat;
+   width: 100%;
+   background-size: 15px;
+   font-size: 16px;
+   padding: 12px 20px 12px 40px;
+   border: 4px solid #4a8bb7;
+   margin-bottom: 12px;
+   border-radius: 30%;
+   padding-top: 5px;
+ }
+ 
+ #myUL {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   opacity: 0.5;
+ }
+ 
+ #myUL li a {
+   border: 4px solid #FF10F0;
+   margin-top: -1px; /* Prevent double borders */
+   background-color: #3b7197;
+   padding: 12px;
+   text-decoration: none;
+   font-size: 18px;
+   color: black;
+   display: block
+ }
+ 
+ #myUL li a:hover:not(.header) {
+   background-color: #eee;
+ }
+ .search_system  {
+   width: 100%;
+   height: 250px;
+   border: 4px solid red;
+   background-image:url("https://media4.giphy.com/media/GTkU2fFFX37YA/giphy.gif?cid=ecf05e471x4gzgatb4bwsrulq16egngz5cjhuftr9cb1hu02&rid=giphy.gif&ct=g") ;
+   background-repeat: no-repeat;
+   background-size: 50%;
+   background-position: left;
+ }
