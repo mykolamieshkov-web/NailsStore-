@@ -14,7 +14,7 @@ body {
 .container_wrap {
    width: 100vh;
    height: 100vh;
-   border: 4px solid red;
+   max-height: 100%;
 }
 .header {
    width: 50%;
@@ -91,7 +91,6 @@ body {
    color: black;
    display: block
  }
- 
  #myUL li a:hover:not(.header) {
    background-color: #eee;
  }
@@ -104,3 +103,135 @@ body {
    background-size: 50%;
    background-position: center;
  }
+ .fist_box {
+   width: 100px;
+   height: 10vh;
+   padding-top: 10px;
+   font-family: 'Dancing Script', 'ursive';
+  color: #FF10F0;
+  display: flex;
+ ;
+}
+.second_box {
+   width: 150px;
+   height: 10vh;
+display: flex;
+   padding-top: 10px;
+   font-family: 'Dancing Script', 'cursive';
+   color: #FF10F0;
+}
+.trird_box {
+   width: 100px;
+   height: 10vh;
+   padding-top: 10px;
+   font-family: 'Dancing Script', 'cursive';
+   color: #FF10F0;
+   display: flex;
+}
+.boxes {
+   width: 100%;
+   height: 10vh;
+   max-width:100vh;
+   display: flex;
+   justify-content: center;
+   gap: 2px;
+   padding-top: 30%;
+}
+.works {
+ width: 100vh;
+ height: fit-content;
+ display: flex;
+ gap: 4px;
+ justify-content: center;
+  
+}
+.first_img {
+   background-image: url("../img/Gallery/IMG_1.JPG");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 250px;
+   height: 200px;
+}
+.second_img {
+   background-image: url("../img/Gallery/IMG_3.JPG");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 250px;
+   height: 200px;
+}
+.third_img {
+   background-image: url("../img/Gallery/IMG_2.JPG");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 250px;
+   height: 200px;
+}
+.forth_img {
+   background-image: url("../img/Gallery/IMG_4.JPG");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 250px;
+   height: 200px;
+}
+.fifth_img {
+   background-image: url("../img/Gallery/IMG_5.JPG");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 250px;
+   height: 200px;
+}
+.sixth_img {
+   background-image: url("../img/Gallery/IMG_6.JPG");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 250px;
+   height: 200px;
+}
+.partners H3 {
+   font-family: 'Dancing Script', cursive;
+   color: #FF10F0;
+   font-size: 43px;
+   text-align: center;
+   justify-content: center;
+   width: 50%;
+   height: fit-content;
+   max-width: 100vh;
+ }
+ .partners_logo {
+   display: flex;
+   gap: 8px;
+   justify-content: center;
+   width: 50%;
+   height: fit-content;
+   max-width: 100vh;
+ }
+ .partners_logo img {
+   width: 50px;
+   height: 50px;
+   max-width: 100%;
+ }
+ #title {
+   font-family: 'Dancing Script', cursive;
+   color: #FF10F0;
+   font-size: 43px;
+   text-align: center;
+ }
+ .contacts {
+   display: flex;
+   gap: 4px;
+   float: right;
+
+ }
+ .get_contact {
+   padding-top: 100px;
+   width: 50%;
+   height:fit-content;
+   max-width: 100vh;
+ }
+ 
