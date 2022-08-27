@@ -42,7 +42,7 @@ body {
    gap: 2px;
    justify-content: center;
    margin-right: 40%;
-   justify-content: space-around;
+   justify-content: space-between;
    width: 50%;
    max-width:100vh;
    
@@ -52,6 +52,7 @@ body {
    font-size: 18px;
    font-family: serif;
    color: #FF10F0;
+   margin: 30px;
 }
 .header_navigation a:hover {
    color: #000;
